@@ -1,2 +1,30 @@
-line 1
-line 2
+cloning:
+git clone git://github.com/llipovsky/myTest.git
+
+git config --gloval user.name "yourName"
+git config --global user.email "yourEmail"
+
+git add myfile.txt
+
+git status
+
+git diff --staged 
+
+git commit -m "a new file added"
+
+git push https://github.com/llipovsky/myTest.git 
+----
+git branch
+
+git branch "name"
+
+git checkout "name" (changing the branch)
+
+git add myfile.txt
+
+git diff --staged
+
+git status
+
+git commit -m "describtion" myfile.txt
+
