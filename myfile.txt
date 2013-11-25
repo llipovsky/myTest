@@ -1,3 +1,8 @@
+keygen:
+ssh-keygen -t rsa -C lipovsky.lukas@gmail.com
+(cat key...)
+
+
 cloning:
 git clone git://github.com/llipovsky/myTest.git
 
